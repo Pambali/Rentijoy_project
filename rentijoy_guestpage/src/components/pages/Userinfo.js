@@ -11,7 +11,7 @@ function Userinfo(){
    console.log(userdetail)
   
    let log=localStorage.getItem('log')
-   log==='true'?log===true:log===false;
+   log==='true'?log=true:log=false;
 
    function onLogout(){
        
