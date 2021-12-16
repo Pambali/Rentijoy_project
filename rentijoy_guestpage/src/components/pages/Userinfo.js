@@ -4,9 +4,9 @@ import "./signlog.css"
 import image from './image/userpro.png';
 import Navbar from "../Navbar";
 function Userinfo(){
-    //let headers= Headers();
+
  let navigate=useNavigate();
-let userdetail = localStorage.getItem('user_mail')
+ let userdetail = localStorage.getItem('user_mail')
    userdetail = JSON.parse(userdetail)
    console.log(userdetail)
   
@@ -20,12 +20,6 @@ let userdetail = localStorage.getItem('user_mail')
            navigate("/")
     }
 
-    // function Remove(){
-    
-    //     localStorage.setItem('user_mail',true)
-    //     alert(" Succesfully remove your account");
-    //     navigate("/sign-up")
-    // }
     return(
         <><Navbar/>
         
