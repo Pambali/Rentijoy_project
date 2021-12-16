@@ -86,6 +86,6 @@ import Navbar from '../Navbar';
        </div>
        </form>
    </div>
-    )};
+    )}
  
  export default Signup;
