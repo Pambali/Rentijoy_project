@@ -62,8 +62,9 @@ var forgotPassword = async (req, res) => {
             }
         }
     }
-    else (typeof (users) === undefined)
+   else{
       return res.status(202).json({ "message": "user not found" });
+    }
 
 }
 
