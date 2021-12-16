@@ -87,7 +87,7 @@ import Navbar from '../Navbar';
        </div><br />
        <div className="formElements">
           Phone No 
-          <input type="number" id="phone_no" name= "phone_no" required pattern="[5-9]{1}[0-9]{9}" />
+          <input type="tel" id="phone_no" name= "phone_no" required pattern="[5-9]{1}[0-9]{9}" />
           <span style={{color:"#f00"}} ></span>
        </div><br />
        <div className="formElements">
