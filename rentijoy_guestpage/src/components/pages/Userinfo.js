@@ -41,7 +41,7 @@ function Userinfo(){
              </div>
                
          </div>
-         {/* <p onClick={Remove}>Remove your account completely?</p> */}
+       
          </>
     )
 }
