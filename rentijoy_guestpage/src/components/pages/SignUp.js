@@ -9,9 +9,6 @@ import Navbar from '../Navbar';
       e.preventDefault();
       const password=document.getElementById("password");
       const confirmpassword=document.getElementById("confirmpassword");
-      
-         // onEmpty(password);
-         // onEmpty(confirmpassword);
          
          if(password.value===confirmpassword.value){
            
@@ -45,15 +42,7 @@ import Navbar from '../Navbar';
 
    function onchange(p){
     document.getElementById(p.target.id).nextElementSibling.innerHTML=""
-   }
-
-   // function onEmpty(p){
-   //  if(p.value===""){
-   //    p.nextElementSibling.innerHTML="This field is required";
-   //  }
-   // }
-
-  
+   } 
 
     return(
        
