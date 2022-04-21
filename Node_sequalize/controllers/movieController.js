@@ -7,7 +7,7 @@ var addMovie = async(req,res) =>
         MovieName:req.body.Title,
         Poster:req.body.Poster,
         Rating:req.body.imdbRating,
-        Year:req.body.Year,
+        Year:req.body.Year, 
         Released:req.body.Released,
         Duration:req.body.Runtime,
         Genre:req.body.Genre,
@@ -83,7 +83,7 @@ var MoviesByGenre= async(req,res) =>{
         console.log(e)
         return res.status(500).json({"message": e});
     }  
-}
+} 
 
 var MovieImage = async(req, resp) => {
     try{
