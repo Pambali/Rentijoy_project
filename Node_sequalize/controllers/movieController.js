@@ -102,4 +102,5 @@ var MovieImage = async(req, resp) => {
 
 module.exports={
     addMovie,getMovieDetails,MovieList,MoviesByGenre, MovieImage
-}
+}  
+
